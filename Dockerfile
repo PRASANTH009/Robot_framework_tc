@@ -6,6 +6,7 @@ RUN apt install python -y
 RUN apt install python-pip -y
 RUN apt install -y apache2 
 Run pip install robotframework
+RUN pip install robotframework-rammbock
 
 
 EXPOSE 80
