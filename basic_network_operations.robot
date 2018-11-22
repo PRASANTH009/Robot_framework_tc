@@ -27,6 +27,7 @@ Multiple UDP clients
     Server 'ExampleServer' should get 'bar' from '${CLIENT}':'${CLIENT 2 PORT}'
 
 Multiple UDP servers
+    [Tags]  pybot
     [Setup]    Start two udp clients
     Start udp server    ${SERVER}    ${SERVER PORT}    name=Server_1
     Start udp server    ${SERVER}    ${SERVER PORT 2}    name=Server_2
